@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
-# Gives information about 'achool'  file
+# This script gives information about the "school" file
 
 if [ -e "school" ]
 then
   echo "school file exists"
+
   if [ -s "school" ]
   then
     echo "school file is not empty"
